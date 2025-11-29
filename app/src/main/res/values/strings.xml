@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="agregar_tarea">Agregar Tarea</string>
+    <string name="task_saved_success">Tarea agregada con exito</string>
+    <string name="error_task_save">Error al agregar la tarea</string>
+    <string name="fecha_de_creacion">Fecha de creación ex. dd/mm/yy</string>
+</resources>
