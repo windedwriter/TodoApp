@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:padding="12dp">
 
-        <!-- Título -->
+
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="0dp"
@@ -28,7 +28,7 @@
             app:layout_constraintEnd_toStartOf="@+id/tvCreated_at"
             app:layout_constraintHorizontal_bias="0" />
 
-        <!-- Fecha -->
+
         <TextView
             android:id="@+id/tvCreated_at"
             android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
             app:layout_constraintTop_toTopOf="@id/tvTitle"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Descripción -->
+
         <TextView
             android:id="@+id/tvDescription"
             android:layout_width="0dp"
@@ -50,7 +50,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Switch -->
+
         <Switch
             android:id="@+id/switchCompleted"
             android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 
-        <!-- Botón editar -->
+
         <ImageView
             android:id="@+id/btnEdit"
             android:layout_width="32dp"
@@ -74,7 +74,7 @@
             app:layout_constraintEnd_toStartOf="@id/btnDelete"
             android:layout_marginEnd="8dp" />
 
-        <!-- Botón eliminar -->
+
         <ImageView
             android:id="@+id/btnDelete"
             android:layout_width="32dp"

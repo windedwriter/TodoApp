@@ -8,7 +8,7 @@
     tools:context=".AddTaskActivity">
 
 
-    <!-- Campo Título -->
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilTitle"
         android:layout_width="0dp"
@@ -60,7 +60,7 @@
 
 
 
-    <!-- Botón moderno -->
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"

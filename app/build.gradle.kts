@@ -38,7 +38,7 @@ dependencies {
         implementation(libs.activity)
         implementation(libs.constraintlayout)
 
-        // *** SOLO ESTAS DOS DE ROOM ***
+
         implementation("androidx.room:room-runtime:2.6.1")
         annotationProcessor("androidx.room:room-compiler:2.6.1")
 
