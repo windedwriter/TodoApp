@@ -19,7 +19,7 @@ public class Task implements Serializable {
     @ColumnInfo(name = "task_description")
     public String task_description;
 
-    @ColumnInfo(name = "crated_at")
+    @ColumnInfo(name = "created_at")
     public Date created_at;
 
     @ColumnInfo(name = "is_completed")

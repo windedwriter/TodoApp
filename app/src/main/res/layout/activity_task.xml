@@ -27,6 +27,19 @@
         android:layout_margin="16dp"
         />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/agregar_tarea"
+        android:src="@drawable/ic_history"
+        app:backgroundTint="@color/black"
+        app:tint="@android:color/white"
+        android:layout_alignParentBottom="true"
+
+        android:layout_margin="16dp"
+        />
+
 
 
 </RelativeLayout>

@@ -20,8 +20,17 @@ public interface TaskDao {
     @Delete
     void delete(Task task);
 
+
     @Query("SELECT * FROM Tasks")
     List<Task> getAllTasks();
+    @Query("UPDATE Tasks SET is_completed = :completed WHERE id = :taskId")
+    void updateCompletedStatus(int taskId, boolean completed);
+
+    @Query("SELECT * FROM Tasks WHERE is_completed = 1 ORDER BY created_at DESC")
+    List<Task> getCompletedTasks();
+
+    @Query("SELECT * FROM Tasks WHERE is_completed = 0 ORDER BY created_at DESC")
+    List<Task> getPendingTasks();
 }
 
 

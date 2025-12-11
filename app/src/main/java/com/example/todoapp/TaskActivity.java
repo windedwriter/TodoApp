@@ -54,6 +54,11 @@ public class TaskActivity extends AppCompatActivity {
             taskController.updateTask(task);
             Toast.makeText(this, completed ? "Tarea completada" : "Tarea pendiente", Toast.LENGTH_SHORT).show();
         });
+        FloatingActionButton fabHistory = findViewById(R.id.fabHistory);
+        fabHistory.setOnClickListener(v -> {
+            Intent intent = new Intent(TaskActivity.this, HistoryActivity.class);
+            startActivity(intent);
+        });
 
     }
 
